@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="">
+    <script src="Todo.js" async></script>
+    <link href="css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="shop">
+        <h1>Shopping List</h1>
+        <div class="input-div">
+            <input type="text" placeholder="Enter new shopping item" id="input-item" class="input1">
+            <button id="addButton" class="bt1">Add </button>
+            <ul id="items" class="items">
+            </ul>
+            <ul id="SelectedItems">
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section class="weather" id="weather">
+        <h2>Today's Weather</h2>
+        <br>
+        <button class="btn" id="CurrentWeather">Check Weather Before Going for Shopping</button>
+        <br>
+        <div class="notif"> </div>
+        <br>
+        <div>
+            <p id="Temp"></p>
+        </div>
+        <div>
+            <p id="Desc"></p>
+        </div>
+        <div>
+            <p id="loc"></p>
+        </div>
+    </section>
+    <audio id="audio" src="C:\Users\aishb\Desktop\Sem 3\javascript\Phase 1\no.mp3" type="audio/mpeg"></audio>
+    <audio id="audio1" src="C:\Users\aishb\Desktop\Sem 3\javascript\Phase 1\ding.mp3" type="audio/mpeg"></audio>
+    <script src="Weather.js"></script>
+</body>
+
+</html>

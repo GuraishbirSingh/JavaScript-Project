@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+       h1 {
+    font-size: 2rem;
+    font-weight: 40;
+    font-family: 'Notable', sans-serif;
+    margin: 1rem 0 3rem;
+    color: brown;
+    text-align: center;
+
+}
+
+.input1{
+    font-size: large;
+}
+items.{
+    margin: 15px;
+}
+.Desc{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+li{
+    display: list-item;
+    align-items: flex-start;
+    text-align: start;
+    align-self: center;
+
+}
+.btn{
+    
+    background-color: lightblue;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;    
+}
+.weather{
+    margin: 40px;
+}
+.shop{
+    margin: 40px;
+}
+
+label{
+        font-size: 1.5rem;
+
+}
+.bt1{
+    margin: 5px;
+    padding: 0%;
+    font-size: 1.2em;
+    background-color: lightblue;
+}
+
+
